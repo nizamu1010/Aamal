@@ -1,0 +1,92 @@
+    {% extends "base.html" %}
+    {% load static %}
+    {% block link %}
+
+    {% endblock link %}
+	{% block content %}
+	
+		<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>About Us</h1>
+								<p class="mb-4">We are dedicated to providing top-quality EMT conduits and fittings across Saudi Arabia. With a commitment to excellence and a focus on customer satisfaction, we offer a wide range of reliable products tailored to meet the needs of various electrical installations. Our experienced team is dedicated to delivering exceptional service and expert advice. Discover how our passion for quality and innovation sets us apart in the wholesale industry.</p>
+								<p><a href="{% url "catalogue:products" %}" class="btn btn-secondary me-2">Shop Now</a>
+									<a href="{% static "docs/aamal al arif home page preview.pdf" %}" download class="btn btn-white-outline">Brochure</a></p>
+							</div>
+						</div>
+					    <div class="col-lg-7">
+						    <div class="hero-img-wrap">
+								
+							</div> 
+						</div> 
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
+
+		
+
+		<!-- Start Why Choose Us Section -->
+		<div class="why-choose-section">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-lg-5">
+						<div class="img-wrap">
+							<iframe class="vdo-wrap img-fluid" src="https://drive.google.com/file/d/1QtbstwFBmFfoQgAUAIrl2VYn_TKDbqvZ/preview" width="640" height="480" allow="autoplay"></iframe>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<h2 class="section-title">Company Brief</h2>
+						<p>A'amal al arif trading est., is a leading supplier and distributor of electrical and metal products in Saudi Arabia. With a wide range of quality products including electrical conduit&fittings, cables and components, electromechanical products, and more.We are supplying main and sub contractors and maintainance companies from over the kingdom.</p>
+						<h4 class="section-title">Our Product</h4>
+						<li>Electrical Conduits:</li>
+						<ul>
+							<li>EMT - Electrical Metallic Tubing</li>
+							<li>IMC - Intermediate Metal Conduit</li>
+							<li>RMC -  Rigid Metal Conduit</li>
+							<li>FMC - Flexible Metal Conduit</li>
+							<li>LFMC - Liquidtight Flexible Metal Conduit</li>
+						</ul>
+						<li>Electrical Fittings:</li>
+						<ul>
+							<li>EMT Fittings</li>
+							<li>Conduit Fittings</li>
+							<li>Liquid Tight Fittings</li>
+							<li>Flexible Metal Conduit Fittings</li>
+							<li>Wire Cable Fittings</li>
+						</ul>
+						<li>Electrical Box:</li>
+						<ul>
+							<li>Weatherproof Box</li>
+							<li>Conduit Body</li>
+							<li>Steel Box</li>
+						</ul>
+						<li>Conduit Support:</li>
+						<ul>
+							<li>Strut Channel</li>
+							<li>Threaded Rod</li>
+							<li>Conduit Hanger</li>
+							<li>Strut Clamp</li>
+							<li>Beam Clamp</li>
+						</ul>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<!-- End Why Choose Us Section -->
+
+		
+		
+
+		<!-- Start Footer Section -->
+	
+		<!-- End Footer Section -->		
+		{% endblock content %}
+		{% block script %}
+
+       {% endblock script %}

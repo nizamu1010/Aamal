@@ -1,0 +1,80 @@
+    {% extends "base.html" %}
+    {% load static %}
+    {% block link %}
+
+    {% endblock link %}
+	{% block content %}
+
+
+	
+		
+		<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>Catalogue</h1>
+								<p class="mb-4">Explore our extensive range of EMT conduits and fittings, designed to meet the highest standards of quality and reliability. Browse through our diverse product offerings to find the perfect solutions for your electrical installation needs. For detailed specifications and inquiries, please contact us directly.</p>
+								<p><a href="{% url "catalogue:products" %}" class="btn btn-secondary me-2">Shop Now</a>
+									<a href="{% url "authentication:contact" %}" class="btn btn-white-outline">Get a quot</a></p>
+							</div>
+						</div>
+					    <div class="col-lg-7">
+						    <div class="hero-img-wrap">
+								
+							</div> 
+						</div> 
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
+
+		
+
+		<div class="untree_co-section product-section before-footer-section">
+		    <div class="container">
+		      	<div class="row">
+
+		      		<!-- Start Column 1 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5">
+						<a class="product-item" href="{% static "docs/aamal al arif home page preview.pdf" %}" download>
+							<img class="img-fluid product-thumbnail" src="{% static "docs/aamal hero img.png" %}" alt="catalogue">
+							<h3 class="product-title">Catalogue</h3>
+
+						</a>
+					</div> 
+					<!-- End Column 1 -->
+						
+					<!-- Start Column 2 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5">
+						<a class="product-item" href="{% static "docs/aamal al arif home page preview.pdf" %}" download>
+							<img class="img-fluid product-thumbnail" src="{% static "docs/aamal hero img.png" %}" alt="catalogue">
+							<h3 class="product-title">Catalogue</h3>
+
+						</a>
+					</div> 
+					<!-- End Column 2 -->
+
+					<!-- Start Column 3 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5">
+						<a class="product-item" href="{% static "docs/aamal al arif home page preview.pdf" %}" download>
+							<img class="img-fluid product-thumbnail" src="{% static "docs/aamal hero img.png" %}" alt="catalogue">
+							<h3 class="product-title">Catalogue</h3>
+
+						</a>
+					</div> 
+					<!-- End Column 3 -->
+				</div>
+			</div>
+		</div>			 
+
+
+		<!-- Start Footer Section -->
+		
+		<!-- End Footer Section -->	
+        {% endblock content %}
+		{% block script %}
+        
+
+        {% endblock script %}
